@@ -31,5 +31,13 @@
   "bugs": {
     "url": "https://github.com/Yaaqoub/microsoft-graph-token/issues"
   },
-  "homepage": "https://github.com/Yaaqoub/microsoft-graph-token#readme"
+  "homepage": "https://github.com/Yaaqoub/microsoft-graph-token#readme",
+  "dependencies": {
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "mocha": "^5.2.0",
+    "mocha-lcov-reporter": "^1.3.0"
+  }
 }
