@@ -1,0 +1,35 @@
+{
+  "name": "microsoft-graph-token",
+  "version": "1.0.0",
+  "description": "Generate microsoft graph access token",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yaaqoub/microsoft-graph-token.git"
+  },
+  "keywords": [
+    "microsoft",
+    "graph",
+    "azure",
+    "ad",
+    "token",
+    "generate",
+    "access token"
+  ],
+  "contributors": [
+    {
+      "name": "Yaaqoub Semlali",
+      "email": "semlali.yaaqoub@gmail.com",
+      "url": "https://www.yaaqoubsemlali.com"
+    }
+  ],
+  "author": "Yaaqoub Semlali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yaaqoub/microsoft-graph-token/issues"
+  },
+  "homepage": "https://github.com/Yaaqoub/microsoft-graph-token#readme"
+}
