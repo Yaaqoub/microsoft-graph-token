@@ -33,6 +33,8 @@
   },
   "homepage": "https://github.com/Yaaqoub/microsoft-graph-token#readme",
   "dependencies": {
+    "lodash": "^4.17.11",
+    "request": "^2.88.0",
     "request-promise": "^4.2.2"
   },
   "devDependencies": {
