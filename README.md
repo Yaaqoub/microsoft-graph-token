@@ -12,15 +12,101 @@ Nothing works yet (Don't do it).
 
 ## How it works?
 
+```js
+let MicrosoftGraphToken = require('microsoft-graph-token');
+
+let microsoftGraphToken = new MicrosoftGraphToken({
+        RESOURCE: 'onenote',
+        CLIENT_ID: '...',
+        REDIRECT_URI: '...',
+        CLIENT_SECRET: '...'
+    });
+```
+
 ### Authorization Code Grant workflow
 
-### Get Authorization URI
+### Microsoft Graph
 
-### Get Access Token
+* **Get Authorization URI**
 
-### Test Token Expiration Time
+* **Get Access Token**
 
-### Refresh Token
+* **Test Token Expiration Time**
+
+* **Refresh Token**
+
+
+### OneNote
+
+    RESOURCE: 'onenote'
+
+* **Get Authorization URI**
+
+```js
+console.log(microsoftGraphToken.oneNote.getAuthorizationURI());
+```
+
+* **Get Access Token**
+
+* **Test Token Expiration Time**
+
+* **Refresh Token**
+
+
+### SharePoint
+
+* **Get Authorization URI**
+
+* **Get Access Token**
+
+* **Test Token Expiration Time**
+
+* **Refresh Token**
+
+
+### Office 365
+
+* **Get Authorization URI**
+
+* **Get Access Token**
+
+* **Test Token Expiration Time**
+
+* **Refresh Token**
+
+
+### Skype for Business
+
+* **Get Authorization URI**
+
+* **Get Access Token**
+
+* **Test Token Expiration Time**
+
+* **Refresh Token**
+
+
+### Azure Rights Management Services
+
+* **Get Authorization URI**
+
+* **Get Access Token**
+
+* **Test Token Expiration Time**
+
+* **Refresh Token**
+
+
+### Azure Service Management
+
+* **Get Authorization URI**
+
+* **Get Access Token**
+
+* **Test Token Expiration Time**
+
+* **Refresh Token**
+
 
 ## Testing
 
